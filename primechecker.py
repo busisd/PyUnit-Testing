@@ -21,7 +21,7 @@ class PrimeChecker:
             self.sieve = [0] * self.max_integer
             self.sieve[0] = 1
             self.sieve[1] = 1
-            current_prime = 3
+            current_prime = 2
             while current_prime < self.max_integer:
                 k = current_prime * 2
                 while k < self.max_integer:
